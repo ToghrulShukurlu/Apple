@@ -1,0 +1,18 @@
+section{
+    width: 100%;
+    height: 79vh;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        cursor: pointer;
+    }
+    .swiper-button-prev, .swiper-button-next{
+        &::after{
+            color: #a6a5a5 !important;
+            font-size: 27px !important;
+        }
+        margin: 20px;
+    }
+    
+}
