@@ -41,47 +41,91 @@
   height: 40vh;
   display: flex;
   flex-wrap: wrap;
+  margin: 150px 0 150px 30px;
   justify-content: space-between;
   .second {
-    width: 32%;
-    height: 40vh;
+    width: 24%;
+    height: 90vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     background-color: #f6f6f6;
     padding: 10px 0;
-    // .box-txt {
-    //   height: 100%;
-    //   width: 50%;
-    //   display: flex;
-    //   flex-direction: column;
-    //   justify-content: center;
-    //   align-items: flex-start;
-    //   padding-right: 12px;
-    // }
-    img {
-      width: 20%;
-      height: 100%;
-    }
-  }
 
-  .third{
-    width: 32%;
-    height: auto;
-    background-color: #f6f6f6;
-    margin: 6px;
-     img {
-      width: 20%;
-      height: 100%;
+    .box-txt {
+      padding: 0 20px;
+
+      img {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+      }
+      p {
+        margin-top: 15px;
+        font-size: 25px;
+        font-weight: bold;
+      }
+      span {
+        margin-top: 15px;
+      }
+      h6 {
+        color: #0a84ff;
+        margin-top: 15px;
+      }
     }
   }
-  .fourth{
-    width: 32%;
-    height: auto;
-    background-color: #f6f6f6;
-    margin: 6px;
-     img {
-      width: 20%;
-      height: 100%;
+}
+
+.third {
+  width: 50%;
+  height: 50vh;
+  background-color: #f6f6f6;
+
+  .box-txt {
+    width: 100%;
+    img {
+      width: 100%;
+      height: auto;
+      align-items: center;
+      margin-top: 20px;
+    }
+    p {
+      line-height: 15px;
+      font-size: 25px;
+      font-weight: bold;
+    }
+    span {
+      line-height: 15px;
+    }
+    h6 {
+      color: #0a84ff;
+      line-height: 15px;
+    }
+  }
+}
+.fourth {
+  width: 24%;
+  height: 45vh;
+  background-color: #f6f6f6;
+  .box-txt {
+    width: 100%;
+    img {
+      width: 100%;
+      height: auto;
+      align-items: center;
+      margin-top: 20px;
+    }
+    p {
+      line-height: 15px;
+      font-size: 25px;
+      font-weight: bold;
+    }
+    span {
+      line-height: 15px;
+    }
+    h6 {
+      color: #0a84ff;
+      line-height: 15px;
     }
   }
 }

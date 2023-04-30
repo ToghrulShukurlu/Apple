@@ -15,7 +15,6 @@ import cimg4 from "../assets/img/card3.webp";
 import cimg5 from "../assets/img/Card4.webp";
 import cimg6 from "../assets/img/card5.webp";
 import cimg7 from "../assets/img/card6.webp";
-import imgc from "../assets/img/cardim.png";
 import imgc2 from "../assets/img/cardimg12.png";
 
 
@@ -89,54 +88,54 @@ export const cards = [
     img: cimg3,
     title: "Müştəri kartı",
     desc: "Wallet kartınızı qeydiyyatdan keçirdin.",
-    info: "Modellere baxis",
+    info: "Modellərə baxış",
   },
   {
     id: 3,
     className: "second",
-    img: cimg3,
-    title: "Iphone",
+    img: cimg2,
+    title: "iPhone",
     desc: "Mehsullar:248",
-    info: "Modellere baxis",
+    info: "Modellərə baxış",
   },
   {
     id: 5,
     className: "third",
-    img: cimg4,
-    title: "Müştəri kartı",
-    desc: "Wallet kartınızı qeydiyyatdan keçirdin.",
-    info: "Modellere baxis",
+    img:cimg3,
+    title: "Mac",
+    desc: "Mehsullar:248",
+    info: "Modellərə baxış",
   },
   {
     id: 6,
     className: "fourth",
-    img: cimg5,
-    title: "Müştəri kartı",
-    desc: "Wallet kartınızı qeydiyyatdan keçirdin.",
-    info: "Modellere baxis",
+    img: cimg4,
+    title: "iPad",
+    desc: "Mehsullar:248",
+    info: "Modellərə baxış",
   },
   {
     id: 7,
     className: "fourth",
-    img: cimg6,
+    img: cimg5,
     title: "Müştəri kartı",
-    desc: "Wallet kartınızı qeydiyyatdan keçirdin.",
-    info: "Modellere baxis",
+    desc: "Mehsullar:248",
+    info: "Modellərə baxış",
   },
   {
     id: 8,
     className: "fourth",
-    img: cimg7,
+    img: cimg6,
     title: "Müştəri kartı",
-    desc: "Wallet kartınızı qeydiyyatdan keçirdin.",
-    info: "Modellere baxis",
+    desc: "Mehsullar:248",
+    info: "Modellərə baxış",
   },
   {
     id: 9,
     className: "fourth",
     img: cimg7,
     title: "Müştəri kartı",
-    desc: "Wallet kartınızı qeydiyyatdan keçirdin.",
-    info: "Modellere baxis",
+    desc: "Mehsullar:248",
+    info: "Modellərə baxış",
   },
 ];

@@ -26,11 +26,11 @@ const Products = () => {
       <section className="products-2">
         {cards.slice(3, 9).map((item, index) => (
           <div className={item.className}>
-            <img src={item.img} alt="" />
-            <div className="box-txt">
+            <div className="box-txt">›
               <p>{item.title}</p>
               <span>{item.desc}</span>
               <h6>{item.info}</h6>
+              <img src={item.img} alt="" />
             </div>
           </div>
         ))}
