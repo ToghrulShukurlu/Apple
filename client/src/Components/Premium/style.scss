@@ -1,0 +1,50 @@
+.premium {
+    width: 100%;
+    height: 14vh;
+    display: flex;
+    padding: 32px 60px;
+
+    .logo {
+        width: 70%;
+        height: 80%;
+        background-image: url("../../assets/img/premium-bg.webp");
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .right-text {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        h6 {
+            color: #bababa;
+            font-size: 15px;
+            font-weight: 300;
+        }
+
+        p {
+            color: #bababa;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 1.2;
+        }
+        span{
+            color: #0a84ff;
+            i{
+                font-size: 10px;
+            }
+        }
+    }
+}

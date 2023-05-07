@@ -24,17 +24,19 @@ const Products = () => {
       </section>
 
       <section className="products-2">
-        {cards.slice(3, 9).map((item, index) => (
+        {cards.slice(3,9).map((item, index) => (
           <div className={item.className}>
-            <div className="box-txt">›
+            <div className="box-txt">
               <p>{item.title}</p>
               <span>{item.desc}</span>
-              <h6>{item.info}</h6>
+              <h6>{item.info}<i class="fa-solid fa-chevron-right"></i></h6>
               <img src={item.img} alt="" />
             </div>
           </div>
         ))}
       </section>
+
+
     </>
   );
 };
